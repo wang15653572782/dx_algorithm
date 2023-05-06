@@ -48,7 +48,7 @@ int main() {
         e[a].push_back(b);
         e[b].push_back(a);
     }
-    dfs1(k,0);
+    dfs1(k,-1);
     dfs2(k,k);
 
     while(m--){
